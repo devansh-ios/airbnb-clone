@@ -1,9 +1,8 @@
-import Footer from './Footer';
-import './App.css';
+import Footer from './components/Footer';
 import Home from './Home';
-import Header from './Header';
+import Header from './components/Header';
 import { BrowserRouter,Route,Routes } from 'react-router-dom';
- import SearchPage from './SearchPage';
+ import SearchPage from './Search/SearchPage';
 function App() {
   return (
     <div className="App">

@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "./Banner.css";
-import Search from "./Search";
+import Search from "../Search/Search";
 import { Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 const Banner = () => {
