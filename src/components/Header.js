@@ -15,10 +15,6 @@ const Header = () => {
           alt="huheuh"
         />
       </Link>
-      <div className="header_center">
-        <input type="text" />
-        <SearchIcon />
-      </div>
 
       <div className="header_right">
         <p> Become a Host </p>

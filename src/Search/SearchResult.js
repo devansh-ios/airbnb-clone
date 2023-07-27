@@ -21,7 +21,7 @@ const SearchResult = ({
         <div className="searchResult_infoTop">
           <p>{location}</p>
           <h3>{title}</h3>
-          <p>____</p>
+          <p className="line">____</p>
           <p>{description}</p>
         </div>
 

@@ -5,3 +5,9 @@
 *{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+@media(max-width:800px){
+    .home_section{
+    display:flex;
+    flex-direction: column;
+    }
+}

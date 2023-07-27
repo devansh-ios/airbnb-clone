@@ -13,29 +13,20 @@
   z-index: 100;
   width: 100%;
 }
-.header_center {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  max-width: fit-content;
-  height:30px;
-  padding:10px;
-  border: 3px solid lightgray;
-  border-radius:999px;
-}
-.header_center > input {
-    border:none;
-    /* width:250px;
-     */
-      padding-left:3px;
-
-     outline-width:0;
-}
+ 
 .header_right {
   display: flex;
   align-items: center;
   justify-content:space-between;
-  width:15vw;
-  margin-right:80px;
+  width:20%;
+}
+@media(max-width:800px){
+.header_right{
+  width:55%;
+  
+}
+.header_icon{
+  margin:0   ;
 
+}
 }
