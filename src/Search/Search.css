@@ -40,5 +40,8 @@ overflow: hidden;
     
 }
 @media(max-width:800px){
- 
+ .search{
+left:3%;
+
+ }
 }

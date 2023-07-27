@@ -1,5 +1,4 @@
 import React from "react";
-import SearchIcon from "@mui/icons-material/Search";
 import "./Header.css";
 import { ExpandMore } from "@mui/icons-material";
 import { Avatar } from "@mui/material";
